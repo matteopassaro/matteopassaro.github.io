@@ -107,7 +107,7 @@ p {
     height: 100vh;
     align-items: center;
     background: whitesmoke;
-    margin: 70px;
+    margin: 30%;
   }
 
   .container {
@@ -131,5 +131,5 @@ p {
     transition: .5s;
   }
 
-  
+
 }
