@@ -3,5 +3,38 @@ html {
   }
 
 body {
-    background-color: black;
+  margin: 40px 0;
+  font-family: "Raleway";
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #6c9d87;
+  -webkit-font-smoothing: antialiased;
 }
+
+
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+  height: 300px;;
+  width: 900px;
+  align-items: normal;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card1 {
+  padding-left: 600px;
+  width: 10%;
+}
+
+
