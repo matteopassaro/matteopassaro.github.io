@@ -2,39 +2,80 @@ html {
     scroll-behavior: smooth;
   }
 
-body {
-  margin: 40px 0;
-  font-family: "Raleway";
-  font-size: 14px;
-  font-weight: 500;
-  background-color: #6c9d87;
-  -webkit-font-smoothing: antialiased;
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+img {
+  height: 500px;
+  width: 350px;
+  border-radius: 3px;
+  transition: .5s;
 }
 
 
-.text {
+
+body {
   display: flex;
   justify-content: center;
+  height: 100vh;
   align-items: center;
-  height: auto;
+  background: whitesmoke;
 }
 
 .container {
   display: flex;
-  justify-content: center;
-  padding: 50px 0;
-  height: 300px;;
-  width: 900px;
-  align-items: normal;
+  
+}
+
+.card {
+  height: 500px;
+  margin: 50px;
+  box-shadow: 5px 5px 20px black;
+  overflow: hidden;
+}
+
+
+h1 {
+  margin: 10px;
+  font-size: 40px;
+}
+
+p {
+  font-size: 20px;
+  margin: 20px;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.intro {
+  height: 70px;
+  width: 350px;
+  padding: 6px;
+  box-sizing: border-box;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  background: rgb(27, 27, 27, .5);
+  color:white;
+  bottom: 150px;
+  transition: .5s;
 }
 
-.card1 {
-  padding-left: 600px;
-  width: 100%;
+.card:hover {
+  cursor: pointer;
 }
 
+.card:hover .intro {
+  height: 150px;
+  bottom: 150px;
+  background-color: black;
+}
 
+.card:hover p {
+  opacity: 1;
+  visibility: visible;
+}
+
+.card:hover img {
+  transform: scale(1.1);
+}
