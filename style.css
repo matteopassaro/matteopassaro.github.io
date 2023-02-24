@@ -19,6 +19,8 @@ img {
 body {
   display: flex;
   justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
   height: 100vh;
   align-items: center;
   background: whitesmoke;
@@ -26,7 +28,6 @@ body {
 
 .container {
   display: flex;
-  
 }
 
 .card {
@@ -78,4 +79,36 @@ p {
 
 .card:hover img {
   transform: scale(1.1);
+}
+
+@media only screen and (max-width:700px){
+
+  body {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    background: whitesmoke;
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .intro {
+    height: 70px;
+    width: 350px;
+    padding: 6px;
+    box-sizing: border-box;
+    position: relative;
+    background: rgb(27, 27, 27, .5);
+    color:white;
+    bottom: 20%;
+    transition: .5s;
+  }
+
 }
