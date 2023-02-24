@@ -23,7 +23,7 @@ body {
   margin-right: auto;
   height: 100vh;
   align-items: center;
-  background: whitesmoke;
+  background: #1A1A1D;
 }
 
 .container {
@@ -87,7 +87,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: whitesmoke;
+    background: #1A1A1D;
   }
 
   .card:hover .intro {
@@ -106,7 +106,7 @@ p {
     justify-content: center;
     height: 100vh;
     align-items: center;
-    background: whitesmoke;
+    background: #1A1A1D;
     margin: 30%;
   }
 
