@@ -81,14 +81,33 @@ p {
   transform: scale(1.1);
 }
 
+@media only screen and (max-width:1000px){
+  body {
+    transform: scale(50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: whitesmoke;
+  }
+
+  .card:hover .intro {
+    height: 150px;
+    bottom: 125px;
+    background-color: black;
+  }
+}
+
+
+
 @media only screen and (max-width:700px){
 
   body {
     display: flex;
     justify-content: center;
-    height: auto;
+    height: 100vh;
     align-items: center;
     background: whitesmoke;
+    margin: 70px;
   }
 
   .container {
