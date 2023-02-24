@@ -58,7 +58,7 @@ p {
   position: absolute;
   background: rgb(27, 27, 27, .5);
   color:white;
-  bottom: 150px;
+  bottom: 130px;
   transition: .5s;
 }
 
@@ -68,7 +68,7 @@ p {
 
 .card:hover .intro {
   height: 150px;
-  bottom: 150px;
+  bottom: 130px;
   background-color: black;
 }
 
