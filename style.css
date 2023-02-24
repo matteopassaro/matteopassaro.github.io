@@ -87,16 +87,17 @@ p {
     display: flex;
     justify-content: center;
     height: auto;
-    margin-left: auto;
-    margin-right: auto;
     align-items: center;
     background: whitesmoke;
   }
 
   .container {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
+    flex-flow: column wrap;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+
   }
 
   .intro {
@@ -111,4 +112,5 @@ p {
     transition: .5s;
   }
 
+  
 }
