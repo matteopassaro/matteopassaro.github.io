@@ -125,7 +125,7 @@ h1 {
   color: #1A1A1D;
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1024px){
   .container {
     display: flex;
     flex-direction: column;
@@ -163,7 +163,7 @@ h1 {
 }
 
 
-@media screen and (max-width:700px){
+@media screen and (max-width:768px){
 
   body {
     background: #1A1A1D;
@@ -199,7 +199,7 @@ h1 {
   .bio {
     margin-top: 10px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 20px;
     color: whitesmoke;
     margin-bottom: 20px;
   }
@@ -221,7 +221,7 @@ h1 {
   .github {
     margin: auto;
     width: 100%;
-    margin-top: 0;
+    margin-top: 50px;
     margin-bottom: 60px;
     padding: 15px 30px;
     border: 5px solid #FE4B74;
@@ -292,19 +292,120 @@ h1 {
 }
 
 
-@media screen and (max-width: 399px){
+@media screen and (max-width: 480px){
   .container {
     display: none;
   }
 
-  
+  .photoContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    
+  }
+
+  .profilePic {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+  }
+
+  .nameBio {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-flow: column wrap;
+    margin: 30px;
+    margin-top: 10px;
+    color:antiquewhite
+  }
+
+  .bio {
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: whitesmoke;
+    margin-bottom: 20px;
+  }
+
+  .nameTitle {
+    font-size: 30px;
+    color: #FE4B74;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .buttons {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    margin: auto;
+    width: 80%;
+  }
+
+  .github {
+    margin: auto;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    padding: 15px 30px;
+    border: 5px solid #FE4B74;
+    border-radius: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    background-color: black;
+    color: whitesmoke;
+    box-shadow: 0px 5px 15px 0.1px #FE4B74;
+    text-transform: uppercase;
+
+  }
+
+  .github:active {
+    transform: scale(0.9);
+  }
+
+
+  .blog {
+    margin: auto;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 60px;
+    padding: 15px 30px;
+    border: 5px solid #FE4B74;
+    border-radius: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    background-color: black;
+    color: whitesmoke;
+    box-shadow: 0px 5px 15px 0.1px #FE4B74;
+    text-transform: uppercase;
+  }
+
+  .ble {
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 60px;
+    padding: 15px 30px;
+    border: 5px solid #FE4B74;
+    border-radius: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    background-color: black;
+    color: whitesmoke;
+    box-shadow: 0px 5px 15px 0.1px #FE4B74;
+    text-transform: uppercase;
+    width: 100%;
+  }
 
   .footer {
+
     display: flex;
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    margin-top: 100%;
+    margin-top: auto;
     background-color: #FE4B74;
     width: 100%;
     height: 40px;
