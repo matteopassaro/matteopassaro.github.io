@@ -409,7 +409,7 @@ h1 {
     background-color: #FE4B74;
     width: 100%;
     height: 40px;
-    position: absolute;
+    position: fixed;
     bottom: 0;
   }
 }
