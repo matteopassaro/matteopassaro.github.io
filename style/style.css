@@ -259,6 +259,10 @@ h1 {
     text-transform: uppercase;
   }
 
+  .blog:active {
+    transform: scale(0.9);
+  }
+
   .ble {
     margin: auto;
     margin-top: 0;
@@ -274,6 +278,10 @@ h1 {
     box-shadow: 0px 5px 15px 0.1px #FE4B74;
     text-transform: uppercase;
     width: 100%;
+  }
+
+  .ble:active {
+    transform: scale(0.9);
   }
 
   .footer {
