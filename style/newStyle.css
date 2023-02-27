@@ -1,0 +1,174 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+
+#page-container {
+    position: relative;
+    min-height: 100vh;   
+}
+
+#content-wrap {
+    padding-bottom: 2.5rem;
+}
+
+
+/*---------------------------------------------------------*/
+
+.container {
+    display: none;        /*POI VEDIAMO SE ELIMINARE LE DIV*/
+  }
+
+/*---------------------------------------------------------*/
+
+.icon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    background: #1A1A1D;
+  }
+
+
+.photoContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5rem;
+  }
+
+.profilePic {
+    height: 9.5rem;
+    width: 9.5rem;
+    border-radius: 50%;
+    box-shadow: 0rem 1rem 1.5rem 0rem rgba(116, 110, 110, 0.185) ;
+}
+
+.nameBio {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-flow: column wrap;
+    margin: 2rem;
+    margin-top: 1.5rem;
+    color:antiquewhite
+  }
+
+.bio {
+    margin-top: 0.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.25rem;
+    color: whitesmoke;
+    margin-bottom: 1.25rem;
+  }
+
+ .nameTitle {
+    font-size: 1.8rem;
+    color: #FE4B74;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+/*++ FOOTER DESIGN STARTS HERE ++*/
+
+#footer {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #FE4B74;
+    width: 100%;
+    height: 2.5rem;
+    position: absolute;
+    bottom: 0;
+}
+
+.footer-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    color: whitesmoke;
+    
+  }
+  
+.tag {
+    font-weight: 550;
+    color: #1A1A1D;
+  }
+
+/*++ FOOTER DESIGN ENDS HERE ++*/
+
+.buttons {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    background-color: aquamarine;
+    margin-bottom: 1rem;
+  }
+
+.github {
+
+    width: 100%; 
+    margin-bottom: 3rem; 
+    padding: 2rem 4rem; 
+    border: 0.3rem solid #FE4B74;
+    border-radius: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: black;
+    color: whitesmoke;
+    box-shadow: 0rem 0.3rem 1rem .06rem #FE4B74;
+    text-transform: uppercase;
+  }
+
+.blog {
+    width: 100%; 
+    margin-bottom: 3rem; 
+    padding: 2rem 4rem; 
+    border: 0.3rem solid #FE4B74;
+    border-radius: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: black;
+    color: whitesmoke;
+    box-shadow: 0rem 0.3rem 1rem .06rem #FE4B74;
+    text-transform: uppercase;
+}
+
+.ble {
+    width: 100%; 
+    margin-bottom: 0rem; 
+    padding: 2rem 4rem; 
+    border: 0.3rem solid #FE4B74;
+    border-radius: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: black;
+    color: whitesmoke;
+    box-shadow: 0rem 0.3rem 1rem .06rem #FE4B74;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 480px) {
+    .buttons {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        width: 80%;
+        height: 100%;
+        margin: auto;
+        background-color: aquamarine;
+        margin-bottom: 5rem;
+      }
+}
