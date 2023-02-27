@@ -130,6 +130,10 @@ body {
     text-transform: uppercase;
   }
 
+  .github:active {
+    transform: scale(0.9);
+  }
+
 .blog {
     width: 100%; 
     margin-bottom: 3rem; 
@@ -145,6 +149,10 @@ body {
     text-transform: uppercase;
 }
 
+.blog:active {
+    transform: scale(0.9);
+  }
+
 .ble {
     width: 100%; 
     margin-bottom: 0rem; 
@@ -159,6 +167,10 @@ body {
     box-shadow: 0rem 0.3rem 1rem .06rem #FE4B74;
     text-transform: uppercase;
 }
+
+.ble:active {
+    transform: scale(0.9);
+  }
 
 @media screen and (max-width: 480px) {
     .buttons {
