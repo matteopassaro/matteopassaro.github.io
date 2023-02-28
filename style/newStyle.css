@@ -183,3 +183,18 @@ body {
         margin-bottom: 5rem;
       }
 }
+
+@media screen and (min-width: 1200px){
+  .buttons {
+    width: 50%;
+  }
+
+  .github {
+    margin-bottom: 4rem;
+  }
+
+  .blog {
+    margin-bottom: 4rem;
+  }
+  
+}
