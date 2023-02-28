@@ -76,7 +76,6 @@ body {
 /*++ FOOTER DESIGN STARTS HERE ++*/
 
 #footer {
-
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -110,12 +109,10 @@ body {
     width: 80%;
     height: 100%;
     margin: auto;
-
     margin-bottom: 1rem;
   }
 
 .github {
-
     width: 100%; 
     margin-bottom: 3rem; 
     padding: 1.5rem 4rem; 
@@ -136,7 +133,9 @@ body {
 
   .github:hover {
     cursor: pointer;
+    transform: scale(1.1);
   }
+
 .blog {
     width: 100%; 
     margin-bottom: 3rem; 
@@ -158,6 +157,7 @@ body {
 
 .blog:hover {
   cursor: pointer;
+  transform: scale(1.1);
 }
 
 .ble {
@@ -181,6 +181,7 @@ body {
 
 .ble:hover {
     cursor: pointer;
+    transform: scale(1.1);
   }
 
 @media screen and (max-width: 480px) {
