@@ -133,9 +133,8 @@ body {
 
   .github:hover {
     cursor: pointer;
-    transform: scale(1.1);
   }
-
+  
 .blog {
     width: 100%; 
     margin-bottom: 3rem; 
@@ -157,7 +156,6 @@ body {
 
 .blog:hover {
   cursor: pointer;
-  transform: scale(1.1);
 }
 
 .ble {
@@ -181,7 +179,6 @@ body {
 
 .ble:hover {
     cursor: pointer;
-    transform: scale(1.1);
   }
 
 @media screen and (max-width: 480px) {
