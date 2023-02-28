@@ -125,6 +125,7 @@ body {
     color: whitesmoke;
     box-shadow: 0rem 0.3rem 1rem .06rem #FE4B74;
     text-transform: uppercase;
+    transition: .3s;
   }
 
   .github:active {
@@ -148,6 +149,7 @@ body {
     color: whitesmoke;
     box-shadow: 0rem 0.3rem 1rem .06rem #FE4B74;
     text-transform: uppercase;
+    transition: .3s;
 }
 
 .blog:active {
@@ -171,6 +173,7 @@ body {
     color: whitesmoke;
     box-shadow: 0rem 0.3rem 1rem .06rem #FE4B74;
     text-transform: uppercase;
+    transition: .3s;
 }
 
 .ble:active {
